@@ -21,7 +21,7 @@ if Gather!=1:
 		os._exit(1)
 print("[1]-Chat/User ID")
 print("[2]-Community ID")
-Choice=input(green+"Choose : "+white)
+choice=input(green+"Choose : "+white)
 if choice==1:
 	hostlink=input(green + "ENTER THE LINK : ")
 	time.sleep(1)
