@@ -22,7 +22,7 @@ if Gather!=1:
 print("[1]-Chat/User ID")
 print("[2]-Community ID")
 Choice=input(green+"Choose : "+white)
-if choice==1 or choice==01:
+if choice==1:
 	hostlink=input(green + "ENTER THE LINK : ")
 	time.sleep(1)
 	if len(hostlink)!=0:
@@ -31,7 +31,7 @@ if choice==1 or choice==01:
 		except:
 			print(red+"Invalid url"+white)
 			os._exit(1)
-if choice==2 or choice==02:
+if choice==2:
 	hostlink=input(green + "ENTER YOUR PROFILE LINK : ")
 	time.sleep(1)
 	if len(hostlink)!=0:
