@@ -1,2 +1,2 @@
 # ID-Extractor
-Extracts Amino accounts ID :)
+Extracts Amino objects ID :)
