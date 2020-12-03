@@ -28,6 +28,7 @@ if choice==1:
 	if len(hostlink)!=0:
 		try:
 			id =client.get_from_code(hostlink).objectId
+			print(red + 'ID= ' + white + id)
 		except:
 			print(red+"Invalid url"+white)
 			os._exit(1)
@@ -38,8 +39,9 @@ if choice==2:
 		try:
 			uurl =client.get_from_code(hostlink).objectId
 			id = uurl.path[1:uurl.path.index("/")]
+			print(red + 'ID= ' + white + id)
 		except:
 			print(red+"Invalid url"+white)
 			os._exit(1)
-print(red + 'ID= ' + white + id)
+
 os._exit(1)
